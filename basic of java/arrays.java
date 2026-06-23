@@ -80,3 +80,17 @@
 //        System.out.println(max);
 //    }
 //}
+
+//even no
+class EvenNo{
+    public static void main(String[] args){
+        int[] arr = {2, 5, 8, 7, 10, 3};
+        int no1 = 0;
+
+        for(int i = 0; i < (args.length - 1) ; i++){
+            if( arr[1] % 2 == 0){
+
+            }
+        }
+    }
+}
