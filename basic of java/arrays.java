@@ -81,16 +81,65 @@
 //    }
 //}
 
-//even no
-class EvenNo{
-    public static void main(String[] args){
-        int[] arr = {2, 5, 8, 7, 10, 3};
-        int no1 = 0;
+//even/odd no
+//class EvenOdd {
+//   public static void main(String[] args) {
+//       int[] arr = {2, 5, 8, 7, 10, 3};
+//
+//       for(int i=0; i<arr.length; i++){
+//
+//       if(arr[i] % 2 == 0){
+//           System.out.println("Even no is " +arr[i]);
+//       }else {
+//           System.out.println("Odd no is " +arr[i]);
+//       }
+//       }
+//    }
+//}
 
-        for(int i = 0; i < (args.length - 1) ; i++){
-            if( arr[1] % 2 == 0){
+//Reverse Array Print
+//class reverseArray{
+//    public static void main(String[] args){
+//   int[] arr = {10,20,30,40,50};
+//   for (int i = arr.length -1 ; i >= 0 ; i--){
+//            System.out.println("reverys arrays is "+arr[i]);
+//        }
+//
+//    }
+//}
 
-            }
-        }
-    }
-}
+//Find Element (Linear Search)
+//class SearchingElement{
+//    static void main(String[] args) {
+//        int[] arr = {5,10,15,20,25};
+//        int a =15;
+//        for(int i=0; i < arr.length-1 ; i++){
+//            if(arr[i] == a){
+//                System.out.println("Element "+arr[i]+" is Found in arrry");
+//            }else{
+//                System.out.println("Element "+arr[i]+" is not Found in arrry");
+//            }
+//        }
+//
+//    }
+//}
+
+
+//Duplicate Element find in array
+// class DuplicateElement{
+//     public static void main() {
+//         int[] arr = {5,10,15,20,25};
+//         boolean found = false;
+//         for(int i=0; i < arr.length; i++){
+//             for(int j=i+1; j < arr.length; j++){
+//                 if(arr[i] == arr[j]){
+//                     System.out.println("Duplicate Element Finded "+arr[i]);
+//                      found = true;
+//                 }
+//             }
+//         }
+//         if(!false){
+//             System.out.println("There is no duplicate");
+//         }
+//     }
+// }
