@@ -124,7 +124,6 @@
 //    }
 //}
 
-
 //Duplicate Element find in array
 // class DuplicateElement{
 //     public static void main() {
@@ -143,3 +142,97 @@
 //         }
 //     }
 // }
+
+//Find Minimum Number 
+//class MiniNo {
+//    public static void main(String[] args) {
+//        int[] arr = {8, 3, 15, 2, 10};
+//        int min = arr[0];
+//        for(int i=0; i  < arr.length  ; i++){
+//            if(arr[i] <  min){
+//                min = arr[i];
+//            }
+//
+//        }
+//        System.out.println(min);
+//    }
+//}
+
+//Count Odd Numbers
+//class CountOdd{
+//public static void main(String[] args) {
+//    int[] arr = {2,5,8,7,10,3};
+//    for (int i = 0 ; i < arr.length; i++){
+//        if(arr[i] % 2 != 0){
+//            System.out.println("out numbers are " +arr[i]);
+//        }
+//
+//    }
+//}
+//}
+
+//Find Average of Array
+//average = sum / total elements
+//class AvenrageNo{
+//    public static void main(String[] args) {
+//        int[] arr = {10,20,30,40};
+//        int avg = 0;
+//        int sum = 0;
+//
+//        for(int i =0; i < arr.length; i++){
+//            sum = sum + arr[i];
+//        }
+//        avg = sum / arr.length;
+//        System.out.println("average is " +avg);
+//    }
+//}
+
+//Check Array Sorted or Not
+//class SortedArr{
+//    public static void main(String[] args) {
+//        int[] arr = {10, 20, 30, 40, 50};
+//        for(int i =0; i< arr.length - 1; i++){
+//            if(arr[i] > arr[i+1]){
+//                System.out.println("array is not sorted");
+//                return;
+//            }
+//        }
+//        System.out.println(" sorted");
+//    }
+//}
+
+//// Second Largest Number
+// class LargSec{
+// public static void main(String[] args) {
+// int[] arr = {10,50,20,80,30};
+// int max = 0;
+// for (int i = 0; i< arr.length -1 ; i++){
+// if (arr[i] > max){
+// max = arr[i];
+// }
+// }
+//
+// int secmax = 0;
+// for(int i = 0; i< arr.length -1 ; i++){
+// if(arr[i] != max && arr[i] > secmax){
+// secmax = arr[i];
+//
+// }
+// } System.out.println("Sec no "+ secmax);
+//
+// }
+// }
+
+// Frequency Count
+class FreCount {
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 1, 3, 1, 4, 2, 2 };
+        int count = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == arr[0]) {
+                count++;
+            }
+        }
+        System.out.println("count" + count);
+    }
+}
